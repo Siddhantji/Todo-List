@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+body > div {
+  width: 92%;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+}
+#item {
+  width: 348px;
+  height: 45px;
+  font-size: 15px;
+}
+.ms{
+  margin-left: 10px;
+}
+#deadline {
+  width: 348px;
+  height: 47px;
+  font-size: 15px;
+}
+.d{
+  border: 0px;
+
+}
+::placeholder{
+  color: black;
+}
+#priority {
+  width: 348px;
+  height: 49px;
+  font-size: 15px;
+}
+#add {
+  width: 240px;
+  font-size: 15px;
+}
+.display {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+.black{
+  background-color: black;
+  color: white;
+}
+p{
+  width: 170px;
+}
+#complete >div{
+border: 1px solid black;
+}
+#complete button{
+  background-color: white;
+margin-right: 2px;
+}
